@@ -13,17 +13,17 @@
     <div class="label-container">
       <div class="label-content">
         <ion-label col-3>E-MAIL:</ion-label>
-        <ion-input type="text" margin-right></ion-input>
+        <ion-input type="text" name="email" [(ngModel)]="model.email" margin-right></ion-input>
       </div>
 
       <div class="label-content">
         <ion-label col-3>SENHA:</ion-label>
-        <ion-input type="password" margin-right></ion-input>
+        <ion-input type="password" name="password" [(ngModel)]="model.password" margin-right></ion-input>
       </div>
     </div>
 
     <div class="button-container">
-      <button ion-button>ENTRAR</button>
+      <button (click)="login()" ion-button>ENTRAR</button>
     </div>
   </div>
 </ion-content>

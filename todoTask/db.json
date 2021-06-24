@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "rodrigo@gmail.com",
+      "password": "rodrigo123",
+      "admin": 0
+    },
+    {
+      "id": 2,
+      "email": "fabricio@gmail.com",
+      "password": "fabricio123",
+      "admin": 0
+    },
+    {
+      "id": 3,
+      "email": "rodolfo@gmail.com",
+      "password": "rodolfo123",
+      "admin": 1
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 4
+    }
+  ]
+}
